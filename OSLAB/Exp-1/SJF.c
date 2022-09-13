@@ -6,7 +6,7 @@ Date of execution:
 */
 #include<stdio.h>
 #include<conio.h>
-main()
+void main()
 {
 int p[20], bt[20], wt[20], tat[20], i, k, n, temp; float wtavg,
 tatavg;
