@@ -1,0 +1,77 @@
+//Rb.c
+//Output-1
+Enter the no of processes -- 3
+
+Enter Burst Time for process 1 -- 2
+
+Enter Burst Time for process 2 -- 3
+
+Enter Burst Time for process 3 -- 5
+
+Enter the size of time slice -- 6
+
+The Average Turnaround time is -- 5.666667
+The Average Waiting time is -- 2.333333
+        PROCESS  BURST TIME      WAITING TIME   TURNAROUND TIME
+        1        2               0               2
+        2        3               2               5
+        3        5               5               10
+
+//Output-2
+Enter the no of processes -- 4
+
+Enter Burst Time for process 1 -- 2
+
+Enter Burst Time for process 2 -- 3
+
+Enter Burst Time for process 3 -- 4
+
+Enter Burst Time for process 4 -- 5
+
+Enter the size of time slice -- 6
+
+The Average Turnaround time is -- 7.500000
+The Average Waiting time is -- 4.000000
+        PROCESS  BURST TIME      WAITING TIME   TURNAROUND TIME
+        1        2               0               2
+        2        3               2               5
+        3        4               5               9
+        4        5               9               14
+
+//Output-3
+Enter the no of processes -- 5
+
+Enter Burst Time for process 1 -- 1
+
+Enter Burst Time for process 2 -- 3
+
+Enter Burst Time for process 3 -- 6
+
+Enter Burst Time for process 4 -- 6
+
+Enter Burst Time for process 5 -- 5
+
+Enter the size of time slice -- 5
+
+The Average Turnaround time is -- 13.000000
+The Average Waiting time is -- 8.800000
+        PROCESS  BURST TIME      WAITING TIME   TURNAROUND TIME
+        1        1               0               1
+        2        3               1               4
+        3        6               14              20
+        4        6               15              21
+        5        5               14              19
+//Output-4
+Enter the no of processes -- 2
+
+Enter Burst Time for process 1 -- 6
+
+Enter Burst Time for process 2 -- 9
+
+Enter the size of time slice -- 5
+
+The Average Turnaround time is -- 13.000000
+The Average Waiting time is -- 5.500000
+        PROCESS  BURST TIME      WAITING TIME   TURNAROUND TIME
+        1        6               5               11
+        2        9               6               15
