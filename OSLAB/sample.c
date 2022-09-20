@@ -9,3 +9,5 @@ Date of Execution: 30-08-2022
     int main(){
 	printf("Hello World\n");
  }
+/* Output 
+*/
