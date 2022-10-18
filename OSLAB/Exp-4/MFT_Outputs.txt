@@ -1,0 +1,93 @@
+Outputs for MFT.c
+Output-1:
+
+Enter the total memory available (in Bytes) -- 1000
+Enter the block size (in Bytes) -- 300
+
+Enter the number of processes -- 5
+Enter memory required for process 1 (in Bytes)-- 275
+Enter memory required for process 2 (in Bytes)-- 400
+Enter memory required for process 3 (in Bytes)-- 290
+Enter memory required for process 4 (in Bytes)-- 293
+Enter memory required for process 5 (in Bytes)-- 100
+
+No. of Blocks available in memory--3
+
+PROCESS MEMORYREQUIRED  ALLOCATED       INTERNAL FRAGMENTATION
+ 1              275             YES     25
+ 2              400             NO              ---
+ 3              290             YES     10
+ 4              293             YES     7
+Memory is Full, Remaining Processes cannot be accomodated
+
+Total Internal Fragmentation is 42
+Total External Fragmentation is 100
+
+Output-2:
+
+Enter the total memory available (in Bytes) -- 2500
+Enter the block size (in Bytes) -- 200
+
+Enter the number of processes -- 4
+Enter memory required for process 1 (in Bytes)-- 275
+Enter memory required for process 2 (in Bytes)-- 290
+Enter memory required for process 3 (in Bytes)-- 293
+Enter memory required for process 4 (in Bytes)-- 100
+
+No. of Blocks available in memory--12
+
+PROCESS MEMORYREQUIRED  ALLOCATED       INTERNAL FRAGMENTATION
+ 1              275             NO              ---
+ 2              290             NO              ---
+ 3              293             NO              ---
+ 4              100             YES     100
+
+Total Internal Fragmentation is 100
+Total External Fragmentation is 100
+
+Output-3:
+
+Enter the total memory available (in Bytes) -- 2000
+Enter the block size (in Bytes) -- 300
+
+Enter the number of processes -- 5
+Enter memory required for process 1 (in Bytes)-- 275
+Enter memory required for process 2 (in Bytes)-- 300
+Enter memory required for process 3 (in Bytes)-- 290
+Enter memory required for process 4 (in Bytes)-- 295
+Enter memory required for process 5 (in Bytes)-- 100
+
+No. of Blocks available in memory--6
+
+PROCESS MEMORYREQUIRED  ALLOCATED       INTERNAL FRAGMENTATION
+ 1              275             YES     25
+ 2              300             YES     0
+ 3              290             YES     10
+ 4              295             YES     5
+ 5              100             YES     200
+
+Total Internal Fragmentation is 240
+Total External Fragmentation is 200
+
+Output-4:
+
+Enter the total memory available (in Bytes) -- 1000
+Enter the block size (in Bytes) -- 300
+
+Enter the number of processes -- 4
+Enter memory required for process 1 (in Bytes)-- 275
+Enter memory required for process 2 (in Bytes)-- 290
+Enter memory required for process 3 (in Bytes)-- 293
+Enter memory required for process 4 (in Bytes)-- 100
+
+No. of Blocks available in memory--3
+
+PROCESS MEMORYREQUIRED  ALLOCATED       INTERNAL FRAGMENTATION
+ 1              275             YES     25
+ 2              290             YES     10
+ 3              293             YES     7
+Memory is Full, Remaining Processes cannot be accomodated
+
+Total Internal Fragmentation is 42
+Total External Fragmentation is 100
+
