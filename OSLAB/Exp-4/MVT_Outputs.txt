@@ -1,0 +1,84 @@
+Output--1
+Enter the total memory available (in Bytes)-- 1000  
+
+Enter memory required for process 1 (in Bytes) -- 400
+
+Memory is allocated for Process 1 
+Do you want to continue(y/n) -- y
+
+Enter memory required for process 2 (in Bytes) -- 27
+5
+
+Memory is allocated for Process 2
+Do you want to continue(y/n) -- y
+
+Enter memory required for process 3 (in Bytes) -- 550
+
+Memory is Full
+
+Total Memory Available -- 1000
+
+        PROCESS          MEMORY ALLOCATED
+        1               400
+        2               275
+
+Total Memory Allocated is 675
+Total External Fragmentation is 325
+
+Output--2
+Enter the total memory available (in Bytes)-- 2000
+
+Enter memory required for process 1 (in Bytes) -- 800
+
+Memory is allocated for Process 1
+Do you want to continue(y/n) -- y
+
+Enter memory required for process 2 (in Bytes) -- 54
+
+Memory is allocated for Process 2
+Do you want to continue(y/n) -- y
+
+Enter memory required for process 3 (in Bytes) -- 550
+
+Memory is allocated for Process 3
+Do you want to continue(y/n) -- y
+
+Enter memory required for process 4 (in Bytes) -- 600 
+
+Memory is Full
+
+Total Memory Available -- 2000
+
+        PROCESS          MEMORY ALLOCATED
+        1               800
+        2               54
+        3               550
+
+Total Memory Allocated is 1404
+Total External Fragmentation is 596
+
+Output--3
+Enter the total memory available (in Bytes)-- 500
+
+Enter memory required for process 1 (in Bytes) -- 25
+
+Memory is allocated for Process 1
+Do you want to continue(y/n) -- y
+
+Enter memory required for process 2 (in Bytes) -- 200
+
+Memory is allocated for Process 2
+Do you want to continue(y/n) -- y
+
+Enter memory required for process 3 (in Bytes) -- 455
+
+Memory is Full
+
+Total Memory Available -- 500
+
+        PROCESS          MEMORY ALLOCATED
+        1               25
+        2               200
+
+Total Memory Allocated is 225
+Total External Fragmentation is 275
